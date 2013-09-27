@@ -1,0 +1,18 @@
+!!!
+html
+	head
+		title="Nurun Surveys !"
+		link(rel='stylesheet', href='/css/base.css')
+		script(src='/answer.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		div.answers
+			div.header-wrap
+				div.header
+					img(src="/img/logo-nurun-white.svg")
+					h1 !{survey.name}
+			div.page-wrap
+				div#survey-content
+					div.wait
+						span Waiting for the survey to start...
+						img(src="/img/ajax-loader.gif")

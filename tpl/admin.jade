@@ -1,0 +1,26 @@
+!!!
+html
+	head
+		title="Nurun Surveys !"
+		link(rel='stylesheet', href='/css/base.css')
+		script(src='/admin.js')
+		script(src='/qrcode.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		div.admin
+			div.header-wrap
+				div.header
+					img(src="/img/logo-nurun-white.svg")
+					h1 Survey Factory
+			div.page-wrap
+				h2 New survey
+				#surveyForm
+					form(action="/admin/new-survey/", method="post")
+						label(for="name") Survey name* :
+						input#name(type='text',name='name')
+						ol#questions
+						button.add(type="button",onclick="addQuestion(this);") Add a question
+						button.submit(type="button",onclick="sendSurvey();",id="submitButton") I'm done!
+				div#surveyRecap
+					#qrcode
+					#infos

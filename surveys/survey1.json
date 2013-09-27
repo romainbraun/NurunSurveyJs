@@ -1,0 +1,60 @@
+{
+	"title":"Test de questionnaire",
+	"questions":
+	[
+		{
+			"title":"Question 1",
+			"answers":
+			[
+				{
+					"title":"Réponse 1"
+				},
+				{
+					"title":"Réponse 2"
+				},
+				{
+					"title":"Réponse 3"
+				},
+				{
+					"title":"Réponse 4"
+				}
+			]
+		},
+		{
+			"title":"Question 2",
+			"answers":
+			[
+				{
+					"title":"Réponse 1"
+				},
+				{
+					"title":"Réponse 2"
+				},
+				{
+					"title":"Réponse 3"
+				},
+				{
+					"title":"Réponse 4"
+				}
+			]
+		},
+		{
+			"title":"Question 3",
+			"answers":
+			[
+				{
+					"title":"Réponse 1"
+				},
+				{
+					"title":"Réponse 2"
+				},
+				{
+					"title":"Réponse 3"
+				},
+				{
+					"title":"Réponse 4"
+				}
+			]
+		}
+	]
+}
