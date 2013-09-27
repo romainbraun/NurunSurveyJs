@@ -91,7 +91,7 @@ function sendSurvey(){
 	}
 	var survey_string = JSON.stringify(survey, null, 4);
 
-	socket.emit('survey',{survey:survey_string},function(data){
+	socket.emit('survey',{survey:survey_string},function(data){ // Envoi du survey au serveur
 		
 		var form = document.getElementById('surveyForm');
 		form.className += " shrank";

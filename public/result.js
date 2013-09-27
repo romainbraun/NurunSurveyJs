@@ -49,3 +49,5 @@ function nextQuestion(){
   var questionID = document.location.pathname.substr(document.location.pathname.lastIndexOf('/')+1);
   document.location.replace(parseInt(questionID)+1);
 }
+
+// Il faut faire en sorte que le graphique se mette à jour à l'arrivée sur la page. Pour l'instant il ne s'affiche qu'à la réception d'une réponse
